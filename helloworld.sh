@@ -1,6 +1,6 @@
 #!/bin/bash
 # Request GPU resource
-#$ -l gpu-1
+#$ -l gpu=1
 # Use the flybrain project group
 #$ -P flybrain
 #Use the flybrain queue
