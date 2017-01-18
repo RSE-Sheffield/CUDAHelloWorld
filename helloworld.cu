@@ -5,7 +5,7 @@
 
 __global__ void hello_kernel()
 {
-	printf("Hello World from Thread %d", threadIdx.x);
+	printf("Hello World from Thread %d\n", threadIdx.x);
 }
 
 
