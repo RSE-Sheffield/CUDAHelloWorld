@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 	hello_kernel<<<blocksPerGrid, threadsPerBlock>>>();
 	
 	//synchronise
-	cudeDeviceSyncronize();
+	cudaDeviceSynchronize();
 	
 	return 0;
 }
