@@ -3,7 +3,7 @@
 #$ -l gpu=1
 # Use the training project group
 #$ -P training
-#Use the flybrain queue
+#Use the training queue
 #$ -q training.q 
 
 # Call the hello world executable
