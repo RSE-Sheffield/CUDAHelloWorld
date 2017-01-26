@@ -1,10 +1,10 @@
 #!/bin/bash
 # Request GPU resource
 #$ -l gpu=1
-# Use the flybrain project group
-#$ -P flybrain
+# Use the training project group
+#$ -P training
 #Use the flybrain queue
-#$ -q flybrain.q 
+#$ -q training.q 
 
 # Call the hello world executable
 ./helloworld
